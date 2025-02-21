@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+canvas {
+  display: block;
+}
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
